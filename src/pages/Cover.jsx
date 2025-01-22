@@ -27,7 +27,7 @@ const Cover = () => {
       </aside>
 
       <div className="w-full text-center mt-10">
-        <h1 className="text-xl mb-5">Postres perfectos para celebrar el amor y la amistad</h1>
+        <h1 className="text-xl mb-5 px-4">Postres perfectos para celebrar el amor y la amistad</h1>
         <button className="btnStart px-10 py-5 rounded-2xl text-white">Elige tu favorito</button>
       </div>
 
