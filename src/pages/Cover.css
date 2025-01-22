@@ -1,0 +1,8 @@
+.cover{
+    background-image: url(../assets/bg.jpg);
+}
+
+
+.btnStart{
+    background: linear-gradient(rgba(5,7,12,0.4), rgba(5,7,12,0.4));
+}
