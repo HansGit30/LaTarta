@@ -7,9 +7,11 @@ import TortaAlfajor from "../assets/tortaAlfajor.jpeg"
 const Cover = () => {
   return (
     <section className="cover relative w-full h-screen overflow-hidden font-montserrat">
+      <div className="superior absolute -top-[20%] -right-[50%] bg-slate-400 w-[400px] h-[400px] rounded-full"></div>
+
       <header className="relative w-full h-[50%] pl-4 pt-5">
-        <img className="w-[120px] mb-4" src={Logo} alt="" />
-        <h1 className="max-w-[320px] text-5xl font-outfit leading-tight">Dulzura para compartir este San Valentín</h1>
+        <img className="w-[120px] mb-8" src={Logo} alt="" />
+        <h1 className="max-w-[320px] text-5xl font-outfit leading-tight text-white">Dulzura para compartir este San Valentín</h1>
       </header>
 
       <aside className="relative w-full h-[50%] flex justify-center items-end">

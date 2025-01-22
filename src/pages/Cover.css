@@ -1,5 +1,10 @@
 .cover{
-    background-image: url(../assets/bg.jpg);
+    background-image: url(../assets/bg_brown.jpg);
+}
+.superior{
+    background-image: url("../assets/superior.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .btnStart{
