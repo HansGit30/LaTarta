@@ -44,7 +44,7 @@ const Home = () => {
                     <div className="w-[200px] h-[250px] bg-slate-500 rounded-lg mb-4"></div>
                     <div className="mb-10">
                         <h3 className="text-end font-bold text-xl mb-2">Calidad de los Ingredientes</h3>
-                        <p className="text-end max-w-[260px]">Preparamos con ingredientes frescos y de alta calidad, sin conservantes ni aditivos artificiales. Esto asegura un mejor sabor y mayor valor nutritivo.</p>
+                        <p className="text-end max-w-[270px]">Preparamos con ingredientes frescos y de alta calidad, sin conservantes ni aditivos artificiales. Esto asegura un mejor sabor y mayor valor nutritivo.</p>
                     </div>
                 </article>
 
