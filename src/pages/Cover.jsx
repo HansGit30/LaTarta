@@ -8,33 +8,21 @@ import { Link } from "react-router-dom"
 const Cover = () => {
   return (
     <section className="cover relative w-full h-screen overflow-hidden font-montserrat">
-
-      <header className="w-full mb-5 flex justify-center">
-        <img className="w-[120px] mb-5 pl-4" src={Logo} alt="" />
+      <header className="w-full h-[15%] flex items-end justify-center">
+        <img className="h-[80px] w-auto" src={Logo} alt="" />
       </header>
-
-      <aside className="relative w-full h-[50%] flex justify-center items-start">
-        <div className="absolute left-0 bottom-0 -rotate-12 w-[180px] h-[250px] rounded-2xl z-[1]">
-          <img className="w-full h-full object-cover rounded-2xl" src={Galletas} alt="" />
-        </div>
-        <div className="w-[180px] h-[250px]  rounded-t-2xl z-[2]">
-          <img className="w-full h-full object-cover rounded-2xl" src={MiniTorta} alt="" />
-        </div>
-        <div className="absolute -right-5 bottom-7 rotate-12 w-[180px] h-[250px] rounded-2xl z-[3]">
-          <img className="w-full h-full object-cover rounded-2xl" src={TortaAlfajor} alt="" />
-        </div>
-{/* 
-        <div className="btnStart absolute z-[4] top-[55%] w-[250px] h-[70px] rounded-2xl text-white flex items-center justify-center text-xl">Elige tu favorito</div> */}
+      <aside className="relative w-full max-w-[450px] mx-auto h-[60%] flex justify-center items-center  max-h-[555px] my-auto">
+        <img className="w-[180px] h-[250px] rounded-2xl -rotate-12 absolute left-0 bottom-7 z-[1]" src={Galletas} alt="" />
+        <img className="w-[180px] h-[250px] rounded-2xl z-[2]" src={MiniTorta} alt="" />
+        <img className="w-[180px] h-[250px] rounded-2xl  rotate-12 absolute  right-0 bottom-7 z-[3]" src={TortaAlfajor} alt="" />
       </aside>
-
-      <div className="w-full text-center mt-10">
-        <h1 className="text-xl mb-5 px-4">Postres perfectos para celebrar el amor y la amistad</h1>
-        <Link to="/La_Tarta/inicio">
+      <div className="w-full h-[25%] text-center  flex flex-col justify-center gap-5">
+        <h1 className="text-lg px-4">Postres perfectos para celebrar el amor y la amistad</h1>
+        <Link to="/LaTarta/inicio">
           <button className="btnStart px-10 py-5 rounded-2xl text-white">Elige tu favorito
-        </button>
+          </button>
         </Link>
       </div>
-
     </section>
   )
 }
