@@ -3,7 +3,7 @@ import { useEffect } from "react";
 const useScrollAnimation = (selectors) => {
   const isInViewport = (element) => {
     const rect = element.getBoundingClientRect();
-    return rect.top <= window.innerHeight - 150 && rect.bottom >= 0;
+    return rect.top <= window.innerHeight - 100 && rect.bottom >= 0;
   };
 
   const checkVisibility = () => {
