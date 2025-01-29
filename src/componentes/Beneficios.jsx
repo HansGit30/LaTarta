@@ -3,7 +3,7 @@
 const Beneficios = () => {
     return (
         <section className="w-full px-4 mb-20 md:mb-[200px]">
-            <h2 className="text-2xl mb-2 font-bold lg:text-3xl lg:px-10">Nos tomamos en serio nuestros <br className="hidden lg:block" /> postres artesanales</h2>
+            <h2 className="text-xl mb-2 font-bold lg:text-3xl lg:px-10">Nos tomamos en serio nuestros <br className="hidden lg:block" /> postres artesanales</h2>
             <p className="mb-10 lg:text-sm lg:px-10">Ingredientes frescos, recetas únicas y un toque especial.</p>
             <div className="lg:flex items-center justify-between lg:px-10">
                 <article className="w-full">

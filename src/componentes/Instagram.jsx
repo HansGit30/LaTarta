@@ -32,8 +32,8 @@ const Instagram = () => {
     <section className="mb-20 px-4 md:px-0 ">
       <div className="w-full grid grid-cols-1 grid-rows-4 md:grid-cols-2 md:grid-rows-2">
         <div className="text-center h-[200px] md:h-[300px] lg:text-start">
-          <h2 className="text-2xl font-montserrat font-bold mb-1 lg:px-10 lg:text-3xl">Instagram</h2>
-          <h3 className="mb-5 lg:px-10 lg:text-sm">Tus antojos tienen un nuevo hogar</h3>
+          <h2 className="text-2xl font-montserrat font-bold mb-2 lg:px-10 lg:text-3xl">Instagram</h2>
+          <h3 className="mb-6 lg:px-10 lg:text-sm">Tus antojos tienen un nuevo hogar</h3>
           <p className="px-4 lg:px-10 lg:max-w-[500px]">Únete a nuestra comunidad dulce y no te pierdas ninguna sorpresa. Sé el primero en conocer nuestras novedades, síguenos en Instagram.</p>
         </div>
         <div className="w-full h-[200px]  relative">
