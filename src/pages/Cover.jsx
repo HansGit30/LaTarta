@@ -8,10 +8,10 @@ import { Link } from "react-router-dom"
 const Cover = () => {
   return (
     <section className="cover relative w-full h-screen overflow-hidden font-montserrat">
-      <header className="w-full h-[20%] flex items-end justify-center">
+      <header className="w-full h-[15%] flex items-end justify-center">
         <img className="h-[80px] w-auto" src={Logo} alt="" />
       </header>
-      <aside className="relative w-full max-w-[450px] mx-auto h-[55%] flex justify-center items-center  max-h-[555px] my-auto ">
+      <aside className="relative w-full max-w-[450px] mx-auto h-[60%] flex justify-center items-center  max-h-[555px] my-auto ">
         <img className="w-[180px] h-[250px] rounded-2xl -rotate-12 absolute left-0 bottom-7 z-[1]" src={Galletas} alt="" />
         <img className="w-[180px] h-[250px] rounded-2xl z-[2]" src={MiniTorta} alt="" />
         <img className="w-[180px] h-[250px] rounded-2xl  rotate-12 absolute  right-0 bottom-7 z-[3]" src={TortaAlfajor} alt="" />

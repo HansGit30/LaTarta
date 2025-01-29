@@ -13,13 +13,13 @@ const Home = () => {
     const handleWhatsAppClick = () => {
         const telefono = '51993304138';
         let url = `https://api.whatsapp.com/send?phone=${telefono}&text=
-                    *¡Hola! Deseo ver su catalogo*%0A%0A
+                    *¡Hola! Deseo ver su catalogo 😊*%0A%0A
                     `;
         window.open(url);
     };
     return (
         <section className="home relative overflow-x-hidden">
-            <div className="fixed z-40  bottom-[30px] right-[20px] w-[80px] h-[80px] rounded-full  btnWa">
+            <div className="fixed z-40  bottom-[30px] right-[20px] w-[80px] h-[80px] rounded-full  btnWa bg-black">
 
                 <img onClick={handleWhatsAppClick} className="pt-3 w-[60%] mx-auto " src={Wa} alt="" />
 
@@ -29,8 +29,7 @@ const Home = () => {
                     <img className="w-[120px]" src={Logo} alt="" />
                 </Link>
             </header>
-            <Ofertas />
-            {/* <PostresHome /> */}
+            <Ofertas prop={handleWhatsAppClick} />
             <div className="w-full text-center mb-[50px] px-4 md:mb-[100px]">
                 <p className="font-outfit text-lg mb-5 px-5 md:mb-10">"¡El amor y la amistad no esperan! Haz tu pedido antes del 12 de febrero y sorprende a tus seres queridos."</p>
                 <img className="w-full  max-w-[600px] mx-auto h-[200px] rounded-2xl object-cover" src={ImgTempo} alt="" />
