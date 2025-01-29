@@ -26,6 +26,14 @@ const Instagram = () => {
         transition: "transform 0.5s ease, opacity 0.5s ease",
       },
     },
+    {
+      className: "scrollArriba",
+      style: {
+        opacity: "1",
+        transform: "translateY(0) rotate(15deg)",
+        transition: "transform 0.5s ease, opacity 0.5s ease",
+      },
+    },
   ]);
   
   return (
