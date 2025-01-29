@@ -6,10 +6,24 @@ import Beneficios from "../componentes/Beneficios"
 import Ofertas from "../componentes/Ofertas"
 import "./Home.css"
 import Footer from "../componentes/Footer"
+import Wa from "../assets/whatsapp-brands-solid.svg"
 
 const Home = () => {
+
+    const handleWhatsAppClick = () => {
+        const telefono = '51993304138';
+        let url = `https://api.whatsapp.com/send?phone=${telefono}&text=
+                    *¡Hola! Deseo ver su catalogo*%0A%0A
+                    `;
+        window.open(url);
+    };
     return (
-        <section className="home overflow-x-hidden">
+        <section className="home relative overflow-x-hidden">
+            <div className="fixed z-40  bottom-[30px] right-[20px] w-[80px] h-[80px] rounded-full  btnWa">
+
+                <img onClick={handleWhatsAppClick} className="pt-3 w-[60%] mx-auto " src={Wa} alt="" />
+
+            </div>
             <header className="pt-2 px-4 mb-5">
                 <Link to="/LaTarta">
                     <img className="w-[120px]" src={Logo} alt="" />

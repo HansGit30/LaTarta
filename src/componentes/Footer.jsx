@@ -17,7 +17,7 @@ const Footer = () => {
     },
   ]);
   return (
-    <section className=" relative footer w-full h-[250px]">
+    <section className="relative z-50 footer w-full h-[250px]">
       <img className="absolute w-[130px] -top-28 right-0 opacity-0 scrollIzquierda" src={Galleta} alt="" />
       <div className="w-full h-[160px] flex items-end justify-between px-10">
         <div>
