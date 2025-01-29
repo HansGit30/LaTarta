@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-full h-[90px] flex flex-col justify-center items-center pb-[10px]">
-        <p className="text-sm">©2025 La Tarta – Dulzura artesanal para cada ocasión</p>
+        <p className="text-sm">©2025 La Tarta – Dulzura artesanal para cada ocasión.</p>
         <p className="text-sm">Todos los derechos reservados.</p>
       </div>
     </section>

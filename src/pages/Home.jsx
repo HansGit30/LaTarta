@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import Logo from "../assets/WEB LATARTA-04.png"
-import ImgTempo from "../assets/tempo1.jpg"
+import ImgTempo from "../assets/day-galleta.webp"
 import Instagram from "../componentes/Instagram"
 import Beneficios from "../componentes/Beneficios"
 import Ofertas from "../componentes/Ofertas"
