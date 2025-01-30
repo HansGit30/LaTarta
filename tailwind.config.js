@@ -7,7 +7,9 @@ export default {
     extend: {
       fontFamily:{
         montserrat:["Montserrat", "sans-serif"],
-        outfit:["Outfit", "san-serif"]
+        outfit:["Outfit", "san-serif"],
+        poppin:["Poppins", "san-serif"],
+        quicksand:["Quicksand", "san-serif"]
       }
     },
   },
