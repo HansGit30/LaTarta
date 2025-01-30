@@ -5,6 +5,9 @@
 .btnWa{
   cursor: pointer;
 }
+.btnElige{
+  background-image: url(../assets/bg_brown.jpg);
+}
 
 .btnStart{
     background: linear-gradient(rgba(5,7,12,0.4), rgba(5,7,12,0.4));

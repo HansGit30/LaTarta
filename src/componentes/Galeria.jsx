@@ -5,10 +5,11 @@ import foto4 from "../assets/galeria/ga10.webp"
 import foto5 from "../assets/galeria/ga11.webp"
 import foto6 from "../assets/galeria/ga8.webp"
 
-const Galeria = () => {
+const Galeria = ({prop}) => {
+    const even = prop;
     return (
         <section className="px-4 mb-10">
-            <h2 className="mb-5 text-xl font-bold font-cormorant">Explora Nuestros Dulces Creaciones</h2>
+            <h2 className="mb-5 text-xl font-bold font-cormorant">Un Mundo de Sabor y Dulzura</h2>
 
             <div class="grid grid-cols-2 grid-rows-4 gap-0">
                 <div class="h-[300px] flex justify-center items-center col-start-1 col-end-2 row-start-1 row-end-3">
@@ -29,6 +30,12 @@ const Galeria = () => {
                 <div class="h-[300px] flex justify-center items-center col-start-2 col-end-3 row-start-3 row-end-5">
                     <img className="w-[90%] h-[95%] object-cover rounded-xl" src={foto6} alt="" />
                 </div>
+            </div>
+            <div className="w-full h-[100px] flex justify-center items-center">
+                
+                <button onClick={even} className="btnElige font-quicksand px-10 py-5 rounded-2xl text-white">
+                    Elige el Tuyo
+                </button>
             </div>
         </section>
     )

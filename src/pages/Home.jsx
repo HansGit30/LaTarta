@@ -32,9 +32,12 @@ const Home = () => {
             {/* <Ofertas prop={handleWhatsAppClick} /> */}
             <div className="w-full text-center mb-[50px] px-4 md:mb-[100px]">
                 <p className="font-outfit text-lg mb-5 px-5 md:mb-10">"¡El amor y la amistad no esperan! Haz tu pedido antes del 12 de febrero y sorprende a tus seres queridos."</p>
-                <img className="w-full  max-w-[600px] mx-auto h-[200px] rounded-2xl object-cover" src={ImgTempo} alt="" />
+                <div className="relative w-full max-w-[600px] mx-auto h-[200px]">
+                    <img className="w-full h-full rounded-2xl object-cover" src={ImgTempo} alt="" />
+                    <button onClick={handleWhatsAppClick} className="absolute top-[35%] right-[25%] btnStart px-10 py-5 rounded-2xl text-white font-quicksand">Ver catalogo</button>
+                </div>
             </div>
-            <Galeria />
+            <Galeria prop={handleWhatsAppClick} />
             <Beneficios />
             <Instagram />
             <Footer />
