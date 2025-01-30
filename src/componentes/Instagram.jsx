@@ -1,9 +1,9 @@
 
-import Insta1 from "../assets/INSTA LATARTA-26.webp"
-import Insta2 from "../assets/INSTA LATARTA-27.webp"
-import Insta3 from "../assets/INSTA LATARTA-30.webp"
-import Insta4 from "../assets/INSTA LATARTA-31.webp"
-import Insta5 from "../assets/INSTA LATARTA-34.webp"
+import Insta1 from "../assets/insta/INSTA LATARTA-26.webp"
+import Insta2 from "../assets/insta/INSTA LATARTA-27.webp"
+import Insta3 from "../assets/insta/INSTA LATARTA-30.webp"
+import Insta4 from "../assets/insta/INSTA LATARTA-31.webp"
+import Insta5 from "../assets/insta/INSTA LATARTA-34.webp"
 import useScrollAnimation from "../hooks/useScrollAnimation";
 
 

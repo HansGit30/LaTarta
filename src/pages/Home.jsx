@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom"
-import Logo from "../assets/WEB LATARTA-04.png"
-import ImgTempo from "../assets/day-galleta.webp"
+import Logo from "../assets/iconos/WEB LATARTA-04.png"
+import ImgTempo from "../assets/bene.jpeg"
 import Instagram from "../componentes/Instagram"
 import Beneficios from "../componentes/Beneficios"
-import Ofertas from "../componentes/Ofertas"
 import "./Home.css"
 import Footer from "../componentes/Footer"
-import Wa from "../assets/whatsapp-brands-solid.svg"
+import Wa from "../assets/iconos/whatsapp-brands-solid.svg"
 import Galeria from "../componentes/Galeria"
 
 const Home = () => {
@@ -30,7 +29,7 @@ const Home = () => {
                     <img className="w-[120px]" src={Logo} alt="" />
                 </Link>
             </header>
-            <Ofertas prop={handleWhatsAppClick} />
+            {/* <Ofertas prop={handleWhatsAppClick} /> */}
             <div className="w-full text-center mb-[50px] px-4 md:mb-[100px]">
                 <p className="font-outfit text-lg mb-5 px-5 md:mb-10">"¡El amor y la amistad no esperan! Haz tu pedido antes del 12 de febrero y sorprende a tus seres queridos."</p>
                 <img className="w-full  max-w-[600px] mx-auto h-[200px] rounded-2xl object-cover" src={ImgTempo} alt="" />

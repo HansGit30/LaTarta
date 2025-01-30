@@ -1,7 +1,7 @@
-import Logo from "../assets/WEB LATARTA-04.png"
+import Logo from "../assets/iconos/WEB LATARTA-04.png"
 import Galleta from "../assets/galleta-emprendedor.png"
-import Face from "../assets/facebook-brands-solid.svg"
-import Insta from "../assets/instagram-brands-solid.svg"
+import Face from "../assets/iconos/facebook-brands-solid.svg"
+import Insta from "../assets/iconos/instagram-brands-solid.svg"
 import useScrollAnimation from "../hooks/useScrollAnimation";
 
 const Footer = () => {

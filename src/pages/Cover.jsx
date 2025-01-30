@@ -1,8 +1,8 @@
 import "./Cover.css"
-import Logo from "../assets/WEB LATARTA-04.png"
-import Galletas from "../assets/galletas-D259xRvj.webp"
-import MiniTorta from "../assets/miniTorta-C2LAIxiu.webp"
-import TortaAlfajor from "../assets/tortaAlfajor-DeMz6Yzo.webp"
+import Logo from "../assets/iconos/WEB LATARTA-04.png"
+import Galletas from "../assets/cover/galletas-D259xRvj.webp"
+import MiniTorta from "../assets/cover/miniTorta-C2LAIxiu.webp"
+import TortaAlfajor from "../assets/cover/tortaAlfajor-DeMz6Yzo.webp"
 import { Link } from "react-router-dom"
 import useScrollAnimation from "../hooks/useScrollAnimation"
 

@@ -1,6 +1,6 @@
-import receta from "../assets/receta.jpg"
-import detalles from "../assets/detalles.webp"
-import ingre from "../assets/ingredientes.jpg"
+import receta from "../assets/beneficios/receta.jpg"
+import detalles from "../assets/beneficios/detalles.webp"
+import ingre from "../assets/beneficios/ingredientes.jpg"
 
 const Beneficios = () => {
     return (
