@@ -7,6 +7,7 @@ import Ofertas from "../componentes/Ofertas"
 import "./Home.css"
 import Footer from "../componentes/Footer"
 import Wa from "../assets/whatsapp-brands-solid.svg"
+import Galeria from "../componentes/Galeria"
 
 const Home = () => {
 
@@ -34,6 +35,7 @@ const Home = () => {
                 <p className="font-outfit text-lg mb-5 px-5 md:mb-10">"¡El amor y la amistad no esperan! Haz tu pedido antes del 12 de febrero y sorprende a tus seres queridos."</p>
                 <img className="w-full  max-w-[600px] mx-auto h-[200px] rounded-2xl object-cover" src={ImgTempo} alt="" />
             </div>
+            <Galeria />
             <Beneficios />
             <Instagram />
             <Footer />
