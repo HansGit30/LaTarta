@@ -24,7 +24,7 @@ const Footer = () => {
           <img className="w-[120px]" src={Logo} alt="" />
         </div>
         <div className="flex pb-[15px] gap-3">
-          <a className=" block w-[40px] h-[40px] " href="https://www.facebook.com/profile.php?id=61561164323425&mibextid=ZbWKwL">
+          <a className=" block w-[40px] h-[40px] " href="https://www.facebook.com/profile.php?id=61561164323425">
             <img className="w-full h-full" src={Face} alt="" />
           </a>
           <a className=" block w-[40px] h-[40px] " href="https://www.instagram.com/latarta.sac/">
