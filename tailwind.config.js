@@ -9,6 +9,7 @@ export default {
         montserrat:["Montserrat", "sans-serif"],
         outfit:["Outfit", "san-serif"],
         poppin:["Poppins", "san-serif"],
+        cormorant:["Cormorant Garamond", "san-serif"],
         quicksand:["Quicksand", "san-serif"]
       }
     },
