@@ -10,6 +10,7 @@ export default {
         outfit:["Outfit", "san-serif"],
         poppin:["Poppins", "san-serif"],
         cormorant:["Cormorant Garamond", "san-serif"],
+        julius:["Julius Sans One", "san-serif"],
         quicksand:["Quicksand", "san-serif"]
       }
     },
