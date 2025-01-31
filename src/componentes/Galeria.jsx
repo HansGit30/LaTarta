@@ -9,7 +9,7 @@ const Galeria = ({prop}) => {
     const even = prop;
     return (
         <section className="px-4 mb-10">
-            <h2 className="mb-5 text-xl font-bold font-julius lg:text-3xl lg:px-10">Un Mundo de Sabor y Dulzura</h2>
+            <h2 className="mb-5 text-md font-bold font-julius lg:text-3xl lg:px-10">Un Mundo de Sabor y Dulzura</h2>
 
             <div class="grid grid-cols-2 grid-rows-4 gap-0">
                 <div class="h-[300px] md:h-[500px] flex justify-center items-center col-start-1 col-end-2 row-start-1 row-end-3">
